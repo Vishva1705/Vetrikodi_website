@@ -7,7 +7,7 @@ const fs = require('fs');
 //const mongodbsss = require("./Database/mongodb")
 
 var mongoose = require("mongoose");
-mongoose.set('strictQuery', false);
+mongoose.set('strictQuery', true);
 var url = "mongodb://127.0.0.1:27017/epaper";
 
 mongoose.Promise = global.Promise;
